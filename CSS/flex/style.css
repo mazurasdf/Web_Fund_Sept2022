@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* div{} */
+/* #id{} */
+.card{
+    height: 325px;
+    /* height: 100px; */
+    width: 250px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+}
+
+#container{
+    display: flex;
+    /* flex-direction:column;
+    justify-content: space-between;
+    align-items: center; */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    /* background-color: orange; */
+    height: 100vh;
+}
+
+img{
+    width: 100%;
+}
