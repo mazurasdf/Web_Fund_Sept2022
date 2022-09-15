@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(234, 234, 234);
+}
+
+nav{
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    border-bottom: 3px solid rgb(159, 159, 159);
+    margin-bottom: 10px;
+}
+
+#navCenter{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navLeft{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    height: 70%;
+}
+
+input[type="search"]{
+    width: 85%;
+    height: 70%;
+    border:1px solid rgb(159, 159, 159);
+    border-radius: 10px;
+    font-size: 1.6em;
+}
+
+#navRight{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+#login{
+    color:rgb(159, 159, 159);
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+#createAccount{
+    color: rgb(0, 59, 176);
+    font-size: 1.25em;
+    text-decoration: none;
+    border: 2px solid rgb(0, 59, 176);
+    padding: 7px;
+    border-radius: 10px;
+}
+
+#createAccount:hover{
+    background-color: rgb(0, 59, 176);
+    font-size: 1.25em;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+#mainContent{
+    width: 85%;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftColumn{
+    height: 700px;
+    width: 17%;
+}
+
+#loginRegBox{
+    height: 325px;
+}
+
+.borderedElement{
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(159, 159, 159);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#middleColumn{
+    height: 700px;
+    width: 57%;
+}
+
+#mainStory{
+    height: 500px;
+}
+
+#rightColumn{
+    height: 700px;
+    width: 22%;
+}
+
+#surveyBox{
+    height: 350px;
+}
+
+#listingBox{
+    height: 500px;
+}
