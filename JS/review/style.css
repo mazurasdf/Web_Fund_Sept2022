@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    width: fit-content;
+    background-color: lightpink;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+}
