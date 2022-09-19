@@ -12,6 +12,11 @@ function askQuestionStart(event) {
         // alert("Please ask a question!");
         // userInput.style.border = "3px solid red";
         userInput.classList.add("not-valid");
+
+        //don't worry about the below syntax! you will see more of it in the MERN stack
+        setTimeout(()=>{
+            userInput.classList.remove("not-valid");
+        },1500)
     }
     console.log("will this print before or after the timer?");
 }
